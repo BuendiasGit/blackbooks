@@ -1,16 +1,55 @@
 <view class="container">
 <!--1.轮播图-->
-<view class="page-body">
-    <view class="page-section page-section-spacing swiper">
-      <swiper indicator-dots="false"
-        autoplay="true" interval="3000" duration="500">
-        <block wx:for="{{img}}" wx:key="*this">
+<view class="v1">
+  <view class="page-body">
+      <swiper indicator-dots="true"
+        autoplay="true" interval="3000" duration="500" >
+        <block wx:for="{{background}}" wx:key="*this">
           <swiper-item>
-            <image src="{{}}"></image>
+            <image src='{{item}}' mode="scaleToFill"></image>
           </swiper-item>
         </block>
       </swiper>
-    </view>
+  </view>
+  </view>
+  <!--2.书籍详情-->
+  <view class="v2">
+     <view class="v21">
+      <view class="v211">
+        <image src='/images/山海经.jpg' mode="aspectFit"></image>
+      </view>
+      <view class="v212">
+        <view>书名：<text>山海经</text></view>
+        <view>作者：<text>无名氏</text></view>
+        <view>价格：￥<text>20</text></view>
+        <view>出版社：<text>工业出版社</text></view>
+      </view>
+     </view>
+     <!------------------------------->
+     <view class="v21">
+      <view class="v211">
+        <image src='/images/山海经.jpg' mode="aspectFit"></image>
+      </view>
+      <view class="v212">
+        <view> 书名：<text> 山海经</text></view>
+        <view> 作者：<text> 无名氏</text></view>
+        <view> 价格：￥<text>20</text></view>
+        <view> 出版社：<text> 工业出版社</text></view>
+      </view>
+     </view>
+      <!------------------------------->
+     <view class="v21">
+      <view class="v211">
+        <image src='/images/山海经.jpg' mode="aspectFit"></image>
+      </view>
+      <view class="v212">
+        <view>书名：<text>山海经</text></view>
+        <view>作者：<text>无名氏</text></view>
+        <view>价格：￥<text>20</text></view>
+        <view>出版社：<text>工业出版社</text></view>
+      </view>
+     </view>
+     <!------------------------------------------>
+  </view>
 </view>
-<!--2.书籍列表-->
-</view>
+

@@ -1,14 +1,35 @@
 // pages/books/books.js
 Page({
-
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-    img: ['demo-text-1', 'demo-text-2', 'demo-text-3']
-
+  onShareAppMessage() {
+    return {
+      title: 'swiper',
+      path: 'page/component/pages/swiper/swiper'
+    }
   },
+
+  data: {
+    background: ['/images/山海经.jpg', '/images/山海经.jpg', '/images/山海经.jpg'],
+    indicatorDots: true,
+    vertical: false,
+    autoplay: false,
+    interval: 2000,
+    duration: 500
+  },
+
+
+  intervalChange(e) {
+    this.setData({
+      interval: e.detail.value
+    })
+  },
+
+  durationChange(e) {
+    this.setData({
+      duration: e.detail.value
+    })
+  },
+
+
 
   /**
    * 生命周期函数--监听页面加载
