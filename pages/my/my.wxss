@@ -1,1 +1,60 @@
 /* pages/my/my.wxss */
+.mybody{
+  background-color: rgb(250,250,250);
+  padding: 20rpx;
+}
+.login{
+  display: flex;
+  background-color: rgb(235, 235, 235);
+  height: 240rpx;
+  width: 700rpx;
+  margin: 0 auto;
+  border-radius: 15rpx;
+}
+.umsg{
+  height: 200rpx;
+  margin: 60rpx 100rpx;
+  text-align: center;
+  font-size: 60rpx; 
+}
+.header{
+  height: 200rpx;
+}
+.header image{
+  height: 180rpx;
+  width: 180rpx;
+  margin-top: 30rpx;
+  margin-left: 30rpx; 
+  border-radius: 15rpx;
+}
+.choice{
+  font-size: 40rpx;
+}
+.score{
+  height: 100rpx;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  padding-left: 40rpx;
+  margin-top: 40rpx;
+  padding-top: 20rpx;
+  background-color: white; 
+  font-size: 40rpx;
+  border-bottom: 4rpx solid rgb(250,250,250);
+}
+.scoretext{
+  padding-left: 30rpx;
+}
+.scoreicon{
+  padding-left: 480rpx;
+}
+.outline{
+  width: 100%;
+  background-color: rgb(250,250,250);
+  padding-top: 30rpx;
+  height: 300rpx;
+}
+.btn{
+  background-color: rgb(235, 235, 235);
+  font-size: 60rpx;
+}

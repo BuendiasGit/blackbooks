@@ -1,2 +1,43 @@
 <!--pages/my/my.wxml-->
-<text>pages/my/my.wxml</text>
+<view class="mybody">
+<!-- 登陆/用户信息 -->
+<view class="login">
+  <view class="header">
+    <image src="/img/1.jpg"></image>
+  </view>
+  <view class="umsg">
+    <text>xxxx</text>
+  </view>
+</view>
+</view>
+<!-- 选择框 -->
+<view class="choice">
+  <!-- 我的积分 -->
+  <view class="score" bindtap="toscorelist">
+    <text>-.-</text>
+    <view class="scoretext">积分</view>
+    <view class="scoreicon">></view>
+  </view>
+  <!-- 已购 -->
+  <view class="score">
+    <text>-.-</text>
+    <view class="scoretext">已购</view>
+    <view class="scoreicon">></view>
+  </view>
+  <!-- 评论 -->
+  <view class="score">
+    <text>-.-</text>
+    <view class="scoretext">评论</view>
+    <view class="scoreicon">></view>
+  </view>
+  <!-- 我们 -->
+  <view class="score">
+    <text>-.-</text>
+    <view class="scoretext">我们</view>
+    <view class="scoreicon">></view>
+  </view>
+</view>
+<!-- 注销 -->
+<view class="outline">
+  <button style="width: 95%;height: 120rpx;margin: 0 auto;" class="btn">退出</button>
+</view>
