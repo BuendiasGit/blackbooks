@@ -13,7 +13,7 @@
 <!-- 选择框 -->
 <view class="choice">
   <!-- 我的积分 -->
-  <view class="score">
+  <view class="score" bindtap="toscorelist">
     <text>-.-</text>
     <view class="scoretext">积分</view>
     <view class="scoreicon">></view>

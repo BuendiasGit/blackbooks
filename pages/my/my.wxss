@@ -40,7 +40,7 @@
   padding-top: 20rpx;
   background-color: white; 
   font-size: 40rpx;
-  border-bottom: 4rpx solid rgb(235, 235, 235);
+  border-bottom: 4rpx solid rgb(250,250,250);
 }
 .scoretext{
   padding-left: 30rpx;

@@ -1,4 +1,4 @@
-// pages/my/my.js
+// pages/scorelist/scorelist.js
 Page({
 
   /**
@@ -62,13 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  /**
-   * 跳转到积分列表页面
-   */
-  toscorelist: function(e){
-    wx.navigateTo({
-      url: '/pages/scorelist/scorelist',
-    })
   }
 })

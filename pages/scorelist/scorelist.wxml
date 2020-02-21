@@ -1,0 +1,41 @@
+<!--pages/scorelist/scorelist.wxml-->
+<!-- 列表头 -->
+<view class="header">
+  <view class="h1">序号</view>
+  <view class="h1">积分</view>
+  <view class="h12">原因</view>
+  <view class="h12">时间</view>
+</view>
+<!-- 列表信息 -->
+<view class="msgbody">
+  <view class="msg">
+    <view class="h2">1</view>
+    <view class="h2">20</view>
+    <view class="h22">登陆</view>
+    <view class="h22">21点08分</view>
+  </view>
+  <view class="msg">
+    <view class="h2">1</view>
+    <view class="h2">20</view>
+    <view class="h22">登陆</view>
+    <view class="h22">21点08分</view>
+  </view>
+  <view class="msg">
+    <view class="h2">1</view>
+    <view class="h2">20</view>
+    <view class="h22">登陆</view>
+    <view class="h22">21点08分</view>
+  </view>
+  <view class="msg">
+    <view class="h2">1</view>
+    <view class="h2">20</view>
+    <view class="h22">登陆</view>
+    <view class="h22">21点08分</view>
+  </view>
+  <view class="msg">
+    <view class="h2">1</view>
+    <view class="h2">20</view>
+    <view class="h22">登陆</view>
+    <view class="h22">21点08分</view>
+  </view>
+</view>
