@@ -1,0 +1,68 @@
+<!--pages/des/des.wxml-->
+<view class="des">
+<!--1.书籍列表-->
+  <view class="v1">
+   <view class="v11">
+      <!--2列-->
+        <image src="/images/荒废集.jpg" mode="aspcetFill"></image>
+      </view>
+      <!--3.书籍信息-->
+      <view class="v12">
+        <view>书名：<text>荒废集</text></view>
+        <view>作者：<text>陈丹青</text></view>
+        <view>价格：￥<text class="t1">20</text></view>
+        <!--1.未登录；2.未购买-->
+      <view class="v121"><button type="primary" size="mini">立即兑换</button> </view>
+   </view>
+  </view>
+
+  <!--评论列表-->
+  <view class="v2">
+    <view class="v2head">—————评论列表————</view>
+
+    <view wx:if="{{false}}">
+      <!--没有评论，显示提示信息-->
+      <text>暂无评论，快来抢个沙发</text>
+    </view>
+    <view wx:else>
+      <scroll-view scroll-y="true" style="height:620rpx;">
+        <view class="v21">
+          <view class="v211">
+            <view class="v2111">
+              <image src="/images/人像.png"></image>
+              <text>昵称</text>
+            </view>
+            <text class="tim">2020/2/23 10:23:34</text>
+          </view> 
+          <text class="t212">暂无评论，快来抢个沙发</text>
+        </view>
+
+        <view class="v21">
+          <view class="v211">
+            <view class="v2111">
+              <image src="/images/人像.png" mode="aspectFit"></image>
+              <text>昵称</text>
+            </view>
+            <text class="tim">2020/2/23 10:23:34</text>
+          </view> 
+          <text class="t212">暂无评论，快来抢个沙发</text>
+        </view>
+
+        <view class="v21">
+          <view class="v211">
+            <view class="v2111">
+              <image src="/images/人像.png" mode="aspectFit"></image>
+              <text>昵称</text>
+            </view>
+            <text class="tim">2020/2/23 10:23:34</text>
+          </view> 
+          <text class="t212">暂无评论，快来抢个沙发</text>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+    <!--评论按钮-->
+    <view class="v3">
+      <button type="primary" >添加评论</button>
+    </view>
+</view>
